@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css1.css" />
+
+<title>Registration Page</title>
+<style type="text/css">
+</style>
+</head>
+
+<body bgcolor="cyan">
+<div id="headimage"></div>
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="homepage.jsp" accesskey="1" title="">Home</a></li>
+					<li><a href="Registration.jsp" accesskey="2" title="">Register</a></li>
+					<li><a href="instructions.jsp" accesskey="3" title="">Instructions</a></li>
+					<li><a href="NewGame.jsp" accesskey="4" title="">Create Game</a></li> 
+					<li><a href="joingame.jsp" accesskey="5" title="">Join Game</a></li>   
+					<li><a href="Contact_us.jsp" accesskey="6" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<form>
+<table width="53%" height="86%" bgcolor="#efee82" align="center">
+
+    <tr>        
+      <td colspan="3"> <font size="3"><center><b>REGSTRATION FORM</b></center></font></td>        
+    </tr>
+    <tr>
+        <td width="35%">First name:<br/></td>
+        <td><input type="text" size="25" maxlength="20"   name="firstname "></td>
+    </tr>
+  
+    <tr>
+        <td width="35%">Last name :<br/></td>
+        <td><input type="text" size="25" maxlength="20" name="lastname "></td>
+    </tr>
+  
+    <tr>
+        <td width="35%">Login Name:<br/></td>
+        <td><input type="text" size="25" maxlength="20" name="loginName"></td>
+    </tr>
+    <tr>
+        <td width="30%">Password:<br/></td>
+        <td><input type="password" size="25" maxlength="20"></td>
+    </tr>
+    <tr>
+        <td width="30%">Confirm Password:<br/></td>
+        <td><input type="password" size="25" maxlength="20"></td>
+    </tr>
+    <tr>
+        <td width="30%">Email :<br/></td>
+        <td><input type="text" size="25" maxlength="20"></td>
+    </tr>
+  <tr>
+        <td width="30%">Alternet Email :<br/></td>
+        <td><input type="text" size="25" maxlength="20"></td>
+    </tr>
+    <tr>
+        <td width="30" valign="middle">Gender:</td>
+          <td><select name="" onchange="">
+              <option selected="selected" value="">---Select---</option>
+              <option value="AU_61">Male</option>
+              <option value="AU_61">Female</option>
+
+            </select></td>
+        </tr>
+  
+  <tr>
+<td width="30%" >Date of Birth</td>
+<td >M<select name="month">
+<option name="01">Jan</option>
+<option name="02">Feb</option>
+<option name="03">Mar</option>
+<option name="04">Apr</option>
+<option name="05">May</option>
+<option name="06">Jun</option>
+<option name="07">Jul</option>
+<option name="08">Aug</option>
+<option name="09">Sep</option>
+<option name="10">Oct</option>
+<option name="11">Nov</option>
+<option name="12">Dec</option>
+</select>
+Day<select name="day">
+<option name="01">01</option>
+<option name="02">02</option>
+<option name="03">03</option>
+<option name="04">04</option>
+<option name="05">05</option>
+<option name="06">06</option>
+<option name="07">07</option>
+<option name="08">08</option>
+<option name="09">09</option>
+<option name="10">10</option>
+<option name="11">11</option>
+<option name="12">12</option>
+<option name="13">13</option>
+<option name="14">14</option>
+<option name="15">15</option>
+<option name="16">16</option>
+<option name="17">17</option>
+<option name="18">18</option>
+<option name="19">19</option>
+<option name="20">20</option>
+<option name="21">21</option>
+<option name="22">22</option>
+<option name="23">23</option>
+<option name="24">24</option>
+<option name="25">25</option>
+<option name="26">26</option>
+<option name="27">27</option>
+<option name="28">28</option>
+<option name="29">29</option>
+<option name="30">30</option>
+<option name="31">31</option>
+</select>
+Yr<select name="year">
+<option name="01">81</option>
+<option name="02">82</option>
+<option name="03">83</option>
+<option name="04">84</option>
+<option name="05">85</option>
+<option name="06">86</option>
+<option name="07">87</option>
+<option name="08">88</option>
+<option name="09">89</option>
+<option name="10">90</option>
+<option name="11">91</option>
+<option name="12">92</option>
+<option name="13">93</option>
+</select></td>
+</tr>
+
+   <tr>
+        <td width="30" valign="middle">Select Country :</td>
+          <td><select name="" onchange="">
+              <option selected="selected" value="">---Select---</option>
+              <option value="india">India</option>
+              <option value="us">U.S.</option>
+              <option value="canada">Canada</option>
+              <option value="Nepal">Nepal</option>
+              <option value="China">China</option>
+              <option value="Rusia">Rusia</option>            
+            </select></td>
+        </tr>
+    <tr>
+        <td width="30%">Adress:<br/></td>
+        <td><textarea rows="3" colos="30"></textarea></td>
+    </tr>
+    
+   <tr>
+        <td width="30%">Phone no:<br/></td>
+        <td><input type="text" size="25" maxlength="10"></td>
+    </tr>
+  
+   <tr>
+        <td width="30%">Secret question:<br/></td>
+        <td><textarea rows="2" colos="30"></textarea></td>
+    </tr>
+  
+    <tr>
+        <td width="30%">Answer to Secret question:<br/></td>
+        <td><textarea rows="2" colos="30"></textarea></td>
+    </tr>
+    <tr>
+        <td ><input type="Reset"></td>
+        <td ><input type="submit" value="Submit"></td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css1.css" />
+
+<title>Create New game Page</title>
+<style type="text/css">
+</style>
+</head>
+
+<body bgcolor="cyan">
+<div id="headimage"></div>
+ 
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="homepage.jsp" accesskey="1" title="">Home</a></li>
+					<li><a href="Registration.jsp" accesskey="2" title="">Register</a></li>
+					<li><a href="instructions.jsp" accesskey="3" title="">Instructions</a></li>
+					<li><a href="NewGame.jsp" accesskey="4" title="">Create Game</a></li> 
+					<li><a href="joingame.jsp" accesskey="5" title="">Join Game</a></li>   
+					<li><a href="Contact_us.jsp" accesskey="6" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ <h1 align="center" style="font-family:Algerian";>Create New Game!!!</h1>
+<form>
+<table width="50%" height="86%" id="content" align="center">
+
+   
+    <tr>
+        <td width="50%">UserName:<br/></td>
+        <td><input type="text" size="25" maxlength="20"   name="uname "></td>
+    </tr>
+  
+   
+    <tr>
+        <td width="50%">Password:<br/></td>
+        <td><input type="password" size="25" maxlength="20" name="pwd1"></td>
+    </tr>
+    <tr>
+        <td width="50%">Board Name :<br/></td>
+        <td><input type="text" size="25" maxlength="20" name="boardname"></td>
+    </tr>
+  
+  
+    <tr>
+        <td width="50%" valign="middle">Select no of players:</td>
+          <td><select name="" onchange="">
+              <option selected="selected" value="">---Select---</option>
+              <option name="01">1</option>
+              <option name="02">2</option>
+              <option name="03">3</option>
+              <option name="04">4</option>
+
+            </select></td>
+        </tr>
+  
+  
+   
+    <tr>
+				<td class="normalfont">Die Color:</td>
+				<td>
+		        	 <input type="radio" class="formInput" name="red" value="red">Red
+					 <input type="radio" class="formInput" name="blue" value="blue">Blue
+                     <input type="radio" class="formInput" name="green" value="green">Green
+                     <input type="radio" class="formInput" name="black" value="black">Black
+					 <input type="radio" class="formInput" name="yellow" value="yellow">Black
+				 </td>
+	       </tr>
+    <tr>
+        <td ><input type="Reset"></td>
+        <td ><input type="submit" value="Submit"></td>
+    </tr>
+
+</table>
+</form>
+
+
+</body>
+</html>

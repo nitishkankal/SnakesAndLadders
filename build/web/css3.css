@@ -1,0 +1,17 @@
+div
+{
+background-color:red;
+opacity:0.5;
+filter:Alpha(opacity=50);
+}
+
+.button
+{
+background-color:#8080FF;
+border-bottom:solid;
+border-left: #FFEEEE;
+border-right:solid;
+border-top: #EEEEEE;
+color: black;
+font-family: Verdana, Arial;
+}

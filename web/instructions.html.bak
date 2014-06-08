@@ -1,0 +1,64 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <link href="css1.css" rel="stylesheet" type="text/css" media="all" />
+     <title>Instructions</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+    </head>
+	
+    <body>
+
+	<div id="headimage"></div>
+		<div id="wrapper">
+			<div id="header-wrapper">
+				<div id="header" class="container">
+					<div id="menu">
+						<ul>
+							<li class="active"><a href="homepage.jsp" accesskey="1" title="">Home</a></li>
+							<li><a href="Registration.jsp" accesskey="2" title="">Register</a></li>
+							<li><a href="instructions.jsp" accesskey="3" title="">Instructions</a></li>
+							<li><a href="NewGame.jsp" accesskey="4" title="">Create Game</a></li> 
+							<li><a href="joingame.jsp" accesskey="5" title="">Join Game</a></li>   
+							<li><a href="Contact_us.jsp" accesskey="6" title="">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+ <div id="content">
+ <h2 id="h1" align="center">Rules</h2>   
+
+    <img src="images/instruction.jpg" width="550" height="250">
+    <ol>   
+        <li>The game starts on a first come first serve basis <br></li>
+        <li>If the die rolled is six, the player will get another chance to roll the die. <br></li>
+        <li>There could be only one winner. Once a player wins (reaches the 100th mark), the game is over.<br></li>
+        <li>The first player creates the game and pass phrase.<br></li>
+        <li>Others joining the game should know the <br></li>
+        <li>pass phrase to join the game. <br></li>
+    </ol>
+     <h3>Tips</h3>  
+    <ol>   
+        <li>It’s very easy to play the game. Follow the instructions given below before you play the game.  <br></li>
+        <li>Create the game. <br></li>
+        <li>Ask your friends to join the game created by you.<br></li>
+        <li>Play the game.<br></li>
+     </ol>
+    <h3>Notes</h3>  
+    <ol>   
+        <li>Maximum of four players can play the game  <br></li>
+        <li>There are four colors (each one for a player to differentiate from others) to choose from.  <br></li>
+    </ol>
+       
+  </div>  
+</body>
+</html>        
+       
+  

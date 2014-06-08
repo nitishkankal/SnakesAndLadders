@@ -1,0 +1,45 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css1.css" media=all />
+
+<title>Home Page</title>
+
+</head>
+<table border="0" width="100%">
+
+<td><div id="headimage"></div></td>
+</tr>
+</table>
+
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="homepage.html" accesskey="1" title="">Home</a></li>
+					<li><a href="Registration.html" accesskey="2" title="">Register</a></li>
+					<li><a href="instructions.html" accesskey="3" title="">Instructions</a></li>
+					<li><a href="NewGame.html" accesskey="4" title="">Create Game</a></li> 
+					<li><a href="joingame.html" accesskey="5" title="">Join Game</a></li>   
+					<li><a href="Contact_us.html" accesskey="6" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<div id="social">
+		<a href="http://twitter.com/mr_mitote" target="_blank"><img src="images/twitter.png"/></a>
+		<a href="https://www.facebook.com/mrMitote" target="_blank"><img src="images/facebook.png"/></a>
+	</div>
+
+<div id="footer"><footer>
+		
+			<p class="copy">© COPYRIGHT 2013 MR.Nitish RIGHTS RESERVED</p>
+		
+	</footer>
+</div><!--#footer-->
+
+
+</body>
+</html>

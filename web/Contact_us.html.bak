@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css1.css" media=all />
+
+<title>Contact_Me</title>
+
+</head>
+<table border="0" width="100%">
+
+<td><div id="headimage"></div></td>
+</tr>
+</table>
+
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="homepage.jsp" accesskey="1" title="">Home</a></li>
+					<li><a href="Registration.jsp" accesskey="2" title="">Register</a></li>
+					<li><a href="instructions.jsp" accesskey="3" title="">Instructions</a></li>
+					<li><a href="NewGame.jsp" accesskey="4" title="">Create Game</a></li> 
+					<li><a href="joingame.jsp" accesskey="5" title="">Join Game</a></li>   
+					<li><a href="Contactus.jsp" accesskey="6" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

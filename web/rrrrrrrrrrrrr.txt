@@ -1,0 +1,110 @@
+	/* Function to validate the Email */
+function checkEmail ( email, str )
+{
+	var cut, len, form
+	form=window.document.regform;
+	len = email.length
+	var tmp1 = email.substring ( email.lastIndexOf ( "." )+1 );
+	var tmp2 = email.substring ( 0, email.indexOf ( "@" ) );
+	var tmp3 = email.substring (email.indexOf ( "@" )+1 )
+	var x;
+	var tmp4 = email.substring ( ( x = email.indexOf ( '@' ) ) + 1, email.indexOf ( '.', x ) )
+	var flag = false;
+		
+	if ((cut = email.indexOf ('@')) == -1 || email.indexOf ('.') == -1 || tmp3.indexOf('.') == -1 || tmp4.length == 0)
+	{
+		return str + " is not Valid\n";	
+	}					
+	else if (email.substring (++cut, len).indexOf ('@') != -1)
+	{
+		return str + " shouldn't contain more than one @ Symbols \n";
+	}
+	// Checking for minimum two characters after "." and before "@"
+	else if ( tmp1.length < 2  || tmp2.length < 2 )
+	{
+		return str + " is not Valid \n";
+	}
+	tmp2 = tmp2.toLowerCase();
+	for (var i=0; i<tmp2.length; i++)
+	{
+		if ( (tmp2.charAt(i) >= 'a' && tmp2.charAt(i) <= 'z') || (tmp2.charAt(i) >= '0' && tmp2.charAt(i) <= '9') )
+		{
+			flag = true;
+			break;
+		}
+	}
+	if (flag == false)
+	{
+		return str + " is not Valid \n";
+	}
+	form.txtHidEmail.value=tmp3
+	return "";
+}
+
+/* FUNCTION TO VALIDATE DATE */
+function isDate ( day, month, year )
+{
+	if ( ( day == 0 ) || ( year == 0 ) )
+		return false;
+	month = trim ( month.toLowerCase () );
+	switch ( month ) 
+	{
+		case "january"	:
+							if ( !( (day > 0) && (day <= 31) ) )
+								return false;
+							break;								
+		case "february"	:
+							if ( ( year % 4 == 0 ) && ( year % 100 != 0 ) || ( year % 400 == 0 ) )
+							{
+								if ( !( day > 0 && day <= 29 ) )
+									return false
+							}
+							else
+								if ( !( day > 0 && day <= 28 ) )
+									return false;
+							break;									
+		case "march"	:
+							if ( !( day > 0 && day <= 31 ) )
+								return false							
+							break;								
+		case "april"	:
+							if ( !( day > 0 && day <= 30 ) )
+								return false
+							break;
+		case "may"		:    
+							if ( !( day > 0 && day <= 31 ) )
+								return false
+							break;	
+		case "june"		:    
+							if ( !( day > 0 && day <= 30 ) )
+								return false
+							break;								
+		case "july"		: 
+							if ( !( day > 0 && day <= 31 ) )
+								return false
+							break;								
+		case "august"	:	
+							if ( !( day > 0 && day <= 31 ) )
+								return false
+							break;								
+		case "september":
+							if ( !( day > 0 && day <= 30 ) )
+								return false
+							break;	
+		case "october"	: 
+							if ( !( day > 0 && day <= 31 ) )
+								return false
+							break;	
+		case "november"	: 
+							if ( !( day > 0 && day <= 30 ) )
+								return false
+							break;	
+		case "december"	:
+							if ( !( day > 0 && day <= 31 ) )
+								return false
+							break;					
+		default			:
+							return false;										
+	}
+	return true;
+}

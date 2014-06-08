@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css1.css" />
+
+<title>Join Game</title>
+ <script type="text/javascript" src="join_form_validation.js"></script>
+</head>
+
+<body>
+<div id="headimage"></div>
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="menu">
+				<ul>
+					<li ><a href="homepage.jsp" accesskey="1" title="">Home</a></li>
+                    <li><a href="Login.jsp" accesskey="1" title="">LogIn</a></li>
+					<li><a href="Registration.jsp" accesskey="2" title="">Register</a></li>
+					<li><a href="instructions.jsp" accesskey="3" title="">Instructions</a></li>
+					<li><a href="NewGame.jsp" accesskey="4" title="">Create Game</a></li> 
+					<li class="active"><a href="joingame.jsp" accesskey="5" title="">Join Game</a></li>   
+					<li><a href="Contact_us.jsp" accesskey="6" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+  </div>
+
+<h1 style="font-family:Algerian; text-align: center">Joining game and play!!!</h1>
+
+<section class="main">
+<form name="joinGameForm"  onsubmit="return validation();">
+    
+<table  style="width:50%; height:86%; padding: 10px; border-spacing:10px ;" >
+    
+      <tr>
+        <td><span style="font-family: 'Lato',Calibri,Arial,sans-serif,verdana; font-size: 20pt;font-weight: 300;
+color: rgb(102, 102, 102);text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);">Enter details to join already created game:</span>
+       </tr>
+       
+     
+       
+       <tr>
+            <td>User Name:</td>
+           <td>
+           <input type="text" name="uname" value=""/></td>
+        </tr>
+		  
+          <tr>
+             <td >Board Name:</td>
+             <td>
+              <input type="text"  name="boardname" /></td>
+          </tr>
+                    
+          <tr>
+              <td>Password:</td>
+              <td>
+              <input type="password" name="password" value=""/></td>
+          </tr>
+		    
+	      <tr>
+		   	<td >Die Color:</td>
+			<td>
+		        <input type="radio" name="die" value="red">Red
+			<input type="radio"  name="die" value="blue">Blue
+                <input type="radio"  name="die" value="green">Green
+                <input type="radio"  name="die" value="black">Black
+			    <input type="radio"  name="die" value="yellow">Black
+			 </td>
+	       </tr>
+             <tr>
+               <td align="left"><input class="button" type="Reset"></td>
+               <td><input type="Submit" class="button" value="Submit"/></td>
+              </tr>                    
+                    
+       
+  </table>
+</form>
+</section>
+
+</body>
+</html>
